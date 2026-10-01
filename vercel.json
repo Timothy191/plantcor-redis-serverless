@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "plantcor-redis-serverless",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "REDIS_ENGINE_MODE": "serverless-http"
+  }
+}
