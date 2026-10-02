@@ -19,8 +19,10 @@ Designed to fulfill the serverless Redis requirements of **Arch-System** when de
 
 ```bash
 cd /home/tim/Fork/redis
-vercel --prod
+git push origin main
 ```
+
+The project is connected to Vercel via GitHub; pushes to `main` trigger a production deployment automatically.
 
 After deployment, copy your Vercel deployment URL (e.g. `https://plantcor-redis.vercel.app`) and set it in your **Arch-System** Vercel environment variables:
 
