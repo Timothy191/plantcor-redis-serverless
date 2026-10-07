@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  output: 'standalone',
   outputFileTracingRoot: __dirname,
   async headers() {
     return [
